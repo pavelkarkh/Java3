@@ -146,20 +146,5 @@ public class SqlClient {
 
         return list;
     }
-
-
-//    synchronized static String getNick(String login, String password) {
-//        String request = "SELECT nickname FROM users WHERE login='" +
-//                login + "' AND password='" + password + "'";
-//        try (ResultSet set = statement.executeQuery(request)) {
-//            if (set.next()) {
-//                return set.getString(1);
-//            } else {
-//                return null;
-//            }
-//        } catch (SQLException e) {
-//            throw new RuntimeException(e);
-//        }
-//    }
-
+    
 }
